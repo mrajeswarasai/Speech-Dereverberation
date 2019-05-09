@@ -44,7 +44,7 @@ We see that there is around 65-80 % accuracy in the results.
 The signal plotted in the top part of the image is the original signal containing reverb and the signal below that is the one with the 
 reverb removed. It is a frequency(kHz) vs time(sec) graph
 
-![alt text](https://firebasestorage.googleapis.com/v0/b/vnpr-ed411.appspot.com/o/graph.png?alt=media&token=cdd928b0-3260-44fb-b70a-c563ffb1045e)
+![alt text](https://github.com/mrajeswarasai/Speech-Dereverberation/blob/master/graph.png)
 
 
 
