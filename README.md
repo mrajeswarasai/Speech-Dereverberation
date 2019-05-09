@@ -1,8 +1,11 @@
 # Speech-Dereverberation
 Dereverberation of Speech Signals Using Weighted Prediction Error
-# Variance-normalized Delayed Linear Prediction Algorithm(Frequency Domain)
-This program is an implementation of variance-normalizied delayed linear prediction in time-frequency domain, which is aimed at speech dereverberation, known as weighted prediction error (WPE) method.
+# Problem Description
 
+We aim at a statistical model-based dereverberation approach where we try to estimate the late reverberation in a speech signal captured by distant microphones without prior knowledge of the room impulse response, i.e., the transfer function between the speaker and the microphone.
+
+
+Late reverberations are dense, unaffected by small variations in the arrival time of the speech signal to the microphone, unlike the early reverb parts which look sparse so that their frequency characteristics are greatly affected. We try to estimate the amount of past signal contained in the present signal using a technique called Delayed Linear Prediction(DLP). 
 
 ## Requirements
  - Python 3.x
@@ -24,4 +27,8 @@ This program is an implementation of variance-normalizied delayed linear predict
 
 [WPE Speech Dereverberation](http://www.kecl.ntt.co.jp/icl/signal/wpe/)
 
- Nakatani T, Yoshioka T, Kinoshita K, et al. Speech Dereverberation Based on Variance-Normalized Delayed Linear Prediction[J]. IEEE Transactions on Audio Speech & Language Processing, 2010, 18(7):1717-1731.
+## Team
+ - Sai Rajeswar Maddimsetty
+ - Debapriya Tula
+ - Hemanth Nani Jella
+ - 
