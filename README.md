@@ -92,5 +92,5 @@ IEEE Transactions on Audio Speech & Language Processing, 2010, 18(7):1717-1731.
 ## Team
  - Sai Rajeswar Maddimsetty
  - Debapriya Tula
- - Hemanth Nani Jella
+ - Hemanth Nani
  - Deepesh Bhageria
