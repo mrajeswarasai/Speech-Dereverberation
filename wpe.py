@@ -181,7 +181,7 @@ class WpeMethod(object):
 
 if __name__ == '__main__':
     cfgs = Configrations().parse()
-    # cfgs.filename = '../wav_sample/sample_4ch.wav'
+    # cfgs.filename = '../wav_sample/my_sample.wav'
     cfgs.mic_num = audioread.audio_open(cfgs.filename).channels
     cfgs.out_num = 2
     wpe = WpeMethod(cfgs.mic_num, cfgs.out_num, cfgs.order)
