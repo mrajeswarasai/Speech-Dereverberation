@@ -46,6 +46,22 @@ reverb removed. It is a frequency(kHz) vs time(sec) graph
 
 ![alt text](https://github.com/mrajeswarasai/Speech-Dereverberation/blob/master/graph.png)
 
+# Analysis and Discussion
+
+We saw that the late reverbs were removed to a good extent when the number of input channels was at least three. We had recorded samples on our phones with 2 input channels only, which is why the reverb was not removed to a great extent.
+
+
+
+For speech signals with atleast  3 input channels, the outputs were  much better. 
+
+
+
+We also observed that setting the prediction order according to the RTF of the room brought great changes even when the  number of input channels was low. This is  something we hadn’t observed previously. 
+
+
+
+The prediction order was entered manually. It is the number of past time-frames on which the present frame depends, and this parameter is dependent on how long the late reverbs are. This is a problem that could not be fixed owing to analysing the signal first for a good prediction order and then analysing it again.
+
 
 
 ## Requirements
@@ -67,6 +83,11 @@ reverb removed. It is a frequency(kHz) vs time(sec) graph
 ## Reference
 
 [WPE Speech Dereverberation](http://www.kecl.ntt.co.jp/icl/signal/wpe/)
+
+Speech Dereverberation Based on Variance-Normalized Delayed Linear Prediction[J]. 
+
+
+IEEE Transactions on Audio Speech & Language Processing, 2010, 18(7):1717-1731.
 
 ## Team
  - Sai Rajeswar Maddimsetty
