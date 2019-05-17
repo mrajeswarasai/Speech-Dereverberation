@@ -89,8 +89,3 @@ Speech Dereverberation Based on Variance-Normalized Delayed Linear Prediction[J]
 
 IEEE Transactions on Audio Speech & Language Processing, 2010, 18(7):1717-1731.
 
-## Team
- - Sai Rajeswar Maddimsetty
- - Debapriya Tula
- - Hemanth Nani
- - Deepesh Bhageria
